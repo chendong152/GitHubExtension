@@ -61,7 +61,8 @@
                            Grid.Column="1" 
                            Grid.Row="0" 
                            Grid.ColumnSpan="3" 
-                           FontSize="12" 
+                           FontSize="14" 
+                           Foreground="{Binding Path=Labels[0].Color, Converter={StaticResource ColorConverter}}"
                            TextTrimming="CharacterEllipsis" 
                            HorizontalAlignment="Stretch" Margin="0,0,0,6" />
 

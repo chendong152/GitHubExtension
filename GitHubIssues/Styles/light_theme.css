@@ -302,8 +302,18 @@ div.header {
   height: 22px;
   padding: 5px 5px;
   white-space: nowrap;
-  background-color: #293133;
-  color: #EFEFEF;
+  background-color: #f2f8fa;
+  color: black;
   border-radius: 4px;
   box-shadow: #CCC 2px 2px 5px;
+}
+p::after {
+  content: "";
+  width: 100%;
+  border-bottom: 1px solid #dde4e6;
+  height: .5em;
+  position: absolute;
+  left: 0;
+  display: block;
+  margin-bottom: 5px;
 }
